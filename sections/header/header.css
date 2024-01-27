@@ -1,0 +1,44 @@
+.container-header {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 14px;
+}
+
+.logo-header {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.logo-header-text {
+  color: var(--very-dark-gray);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.42px;
+}
+
+.span-header {
+  font-style: italic;
+}
+
+.logo-header-icon {
+  width: 21px;
+  height: 21px;
+}
+
+nav {
+  display: none;
+}
+
+.social-header {
+  display: none;
+}
+
+.menu-header {
+  width: 28px;
+  height: 28px;
+}
